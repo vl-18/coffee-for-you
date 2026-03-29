@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕ Coffee for You - Recipe Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">☕ Coffee for You</h1>
+            <p class="tagline">Explore the World of Aesthetic Coffee & Matcha</p>
+        </div>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="coffee">☕ Coffee</button>
+        <button class="filter-btn" data-filter="matcha">🍵 Matcha</button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="recipes-grid" id="recipesGrid">
+            <!-- Recipe cards will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal Popup -->
+    <div class="modal" id="recipeModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Recipe details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
